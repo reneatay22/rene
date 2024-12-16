@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Municipality of Ozamis</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-image: url('light.jpg'); /* Background image */
+            background-size: cover; /* Cover the entire page */
+            background-position: center; /* Center the image */
+            background-repeat: no-repeat; /* Do not repeat the image */
+            color: white; /* Default text color */
+            text-align: center; /* Center-align text */
+        }
+
+        h1, h2, h3 {
+            z-index: 1; /* Above background */
+            margin: 0; /* Reset margin */
+        }
+
+        /* Navbar styling */
+        .topnav {
+            display: flex; /* Flexbox layout */
+            justify-content: center; /* Center align links */
+            background-color: rgba(0, 0, 0, 0.7); /* Background for navbar */
+            padding: 10px 0; /* Padding for navbar */
+        }
+
+        .topnav a {
+            padding: 15px 20px; /* Padding for links */
+            text-decoration: none; /* Remove underline */
+            color: white; /* Link color */
+            border-radius: 5px; /* Rounded links */
+            transition: background-color 0.3s; /* Smooth transition */
+        }
+
+        /* Change link background on hover */
+        .topnav a:hover {
+            background-color: rgba(255, 255, 255, 0.8); /* Change background on hover */
+            color: black; /* Change font color on hover */
+        }
+
+        main {
+            display: flex;
+            flex-direction: column; /* Stack content vertically */
+            align-items: center; /* Center align content */
+            padding: 20px;
+            position: relative;
+            z-index: 1; /* Above background */
+        }
+
+        img {
+            max-width: 90%; /* Responsive image width */
+            height: auto;
+            border-radius: 10px; /* Rounded corners for image */
+            margin-bottom: 20px; /* Margin below image */
+        }
+
+        .section {
+            background: rgba(0, 0, 0, 0.8); /* Semi-transparent background for sections */
+            padding: 20px; /* Padding inside sections */
+            border-radius: 8px; /* Rounded corners for sections */
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Shadow for sections */
+            margin: 10px; /* Margin around sections */
+            max-width: 600px; /* Max width for sections */
+            width: 90%; /* Responsive width */
+        }
+
+        footer {
+            margin-top: 20px; /* Margin above footer */
+            padding: 10px; /* Padding inside footer */
+            background-color: #333; /* Solid footer background */
+            color: white; /* Footer text color */
+            position: relative; /* Positioning context for footer */
+            z-index: 1; /* Above background */
+        }
+
+        /* Media Queries for Responsive Design */
+        @media (max-width: 768px) {
+            main {
+                padding: 10px; /* Reduce padding */
+            }
+
+            .section {
+                width: 95%; /* Wider sections on small screens */
+            }
+        }
+
+        @media (max-width: 480px) {
+            main {
+                padding: 5px; /* Reduce padding */
+            }
+
+            img {
+                width: 100%; /* Full width for mobile images */
+            }
+
+            footer {
+                padding: 5px; /* Reduce footer padding */
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- Top Navbar -->
+    <nav class="topnav">
+        <a href="index.html">Home</a>
+        <a href="history.html">About Us</a>
+        <a href="gallery.html">Gallery</a>
+    </nav>
+
+    <!-- Main content -->
+    <main>
+        <img src="logo.png" alt="Logo of the Municipality of Ozamis">
+        <h1>Municipality of Ozamis</h1>
+
+        <div class="section">
+            <h2>About Ozamis City</h2>
+            <p>Ozamiz is located on the east coast of Misamis Occidental, nearby the Zamboanga del Sur and Zamboanga del Norte provinces to the west, and Lanao del Norte is across the Panguil Bay.</p>
+            <p>It is bordered by Tangub to the south and Clarin to the north. Ozamiz is 52 kilometers (32 mi) from Maria Cristina Falls, the main source of hydroelectric power in Mindanao.</p>
+        </div>
+
+        <div class="section">
+            <h2>Transportation</h2>
+            <h3>Air</h3>
+            <p>Ozamiz Airport, also known as Labo Airport, was reopened on July 5, 2007. The airport serves domestic flights, including routes to Manila and Cebu.</p>
+
+            <h3>Sea</h3>
+            <p>The Port of Ozamiz connects the city to Cebu, Manila, and Iligan, with local shipping lines providing transport for passengers and goods.</p>
+
+            <h3>Land</h3>
+            <p>Most transportation within the city is done by trisikad/pedicab and motorized tricycle. For interprovincial trips, Rural Transit, Super Five, UV Express, and local jeepneys are commonly used.</p>
+        </div>
+
+        <div class="section">
+            <h2>Culture and Festivals</h2>
+            <p>Ozamiz's Charter Day anniversary, the feast of Our Lady of the Triumph of the Cross at Cotta Shrine, and the Perangat Festival are celebrated on July 16. The Feast of Our Lady of the Immaculate Conception is celebrated every December 8, accompanied by firework displays.</p>
+            <p>The Sr. Santo Nino Fluvial Parade is held every 4th Sunday of January at Panguil Bay.</p>
+        </div>
+
+        <div class="section">
+            <h2>Vision and Mission</h2>
+            <p><strong>Vision:</strong> A diversified international economic and agricultural hub in the country, providing its constituents better quality of life which in turn brings our nation to greater heights.</p>
+            <p><strong>Mission:</strong> To become a self-reliant community, enjoying genuine and meaningful local autonomy that is an effective partner in the attainment of national goals.</p>
+        </div>
+
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        &copy; 2024 Municipality of Ozamis. All rights reserved.
+    </footer>
+</body>
+
+</html>
